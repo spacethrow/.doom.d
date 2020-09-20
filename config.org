@@ -1,0 +1,7 @@
+#+TITLE: Config
+
+* bindings
+#+BEGIN_SRC emacs-lisp
+(map! "C-s" #'counsel-grep-or-swiper)
+
+#+END_SRC
